@@ -1,6 +1,6 @@
-MultipleInterfaceManager
+OrderSystemManagement
 =================
-本接口是开发出支持Http，gRpc，Websocket接口，基于MultipleInterfaceManager开发
+本接口是开发出支持Http，gRpc，Websocket接口，基于OrderSystemManagement开发
 
 Design Philosophy
 -----------------
@@ -25,7 +25,7 @@ Key Features
 --------
 1. 安装mysql数据库服务端(推荐5.7+),并设置为utf-8编码，创建相应HttpRunner数据库，设置好相应用户名、密码，启动mysql
 
-2. 修改:MultipleInterfaceManager/MultipleInterfaceManager/settings.py里DATABASES字典和邮件发送账号相关配置
+2. 修改:OrderSystemManagement/OrderSystemManagement/settings.py里DATABASES字典和邮件发送账号相关配置
    ```python
         DATABASES = {
             'default': {
@@ -47,7 +47,7 @@ Key Features
         service rabbitmq-server start
     ```
 
-4. 修改:MultipleInterfaceManager/MultipleInterfaceManager/settings.py里worker相关配置
+4. 修改:OrderSystemManagement/OrderSystemManagement/settings.py里worker相关配置
     ```python
         djcelery.setup_loader()
         CELERY_ENABLE_UTC = True
@@ -66,7 +66,7 @@ Key Features
 
 5. 命令行窗口执行pip install -r requirements.txt 安装工程所依赖的库文件
 
-6. 命令行窗口切换到MultipleInterfaceManager目录 生成数据库迁移脚本,并生成表结构
+6. 命令行窗口切换到OrderSystemManagement目录 生成数据库迁移脚本,并生成表结构
     ```bash
         python manage.py makemigrations HttpApiManager #生成数据迁移脚本
         python manage.py migrate  #应用到db生成数据表
@@ -84,7 +84,7 @@ Key Features
 
 9. 启动worker, 如果选择同步执行并确保不会使用到定时任务，那么此步骤可忽略
     ```bash
-        python manage.py celery -A MultipleInterfaceManager worker --loglevel=info  #启动worker
+        python manage.py celery -A OrderSystemManagement worker --loglevel=info  #启动worker
         python manage.py celery beat --loglevel=info #启动定时任务监听器
         celery flower #启动任务监控后台
     ```

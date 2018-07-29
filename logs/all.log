@@ -1987,7 +1987,7 @@ Traceback (most recent call last):
   File "D:\HttpRunnerManager\ApiManager\utils\common.py", line 389, in config_info_logic
     return add_config_data(type, **kwargs)
   File "D:\HttpRunnerManager\ApiManager\utils\operation.py", line 190, in add_config_data
-    logger.info('{name}ÅäÖÃ¸üÐÂ³É¹¦: {kwargs}}'.format(name=name, kwargs = kwargs))
+    logger.info('{name}ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½Â³É¹ï¿½: {kwargs}}'.format(name=name, kwargs = kwargs))
 ValueError: Single '}' encountered in format string
 2018-06-01 10:24:59,924 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/edit_config/ HTTP/1.1" 500 17643
 2018-06-01 10:25:21,455 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/edit_config/
@@ -2005,7 +2005,7 @@ Traceback (most recent call last):
   File "D:\HttpRunnerManager\ApiManager\utils\common.py", line 389, in config_info_logic
     return add_config_data(type, **kwargs)
   File "D:\HttpRunnerManager\ApiManager\utils\operation.py", line 190, in add_config_data
-    logger.info('{name}ÅäÖÃ¸üÐÂ³É¹¦: {kwargs}}'.format(name=name, kwargs = kwargs))
+    logger.info('{name}ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½Â³É¹ï¿½: {kwargs}}'.format(name=name, kwargs = kwargs))
 ValueError: Single '}' encountered in format string
 2018-06-01 10:25:21,473 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/edit_config/ HTTP/1.1" 500 17643
 2018-06-01 10:25:46,856 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 24723
@@ -2026,7 +2026,7 @@ Traceback (most recent call last):
   File "D:\HttpRunnerManager\ApiManager\utils\common.py", line 389, in config_info_logic
     return add_config_data(type, **kwargs)
   File "D:\HttpRunnerManager\ApiManager\utils\operation.py", line 190, in add_config_data
-    logger.info('{name}ÅäÖÃ¸üÐÂ³É¹¦: {kwargs}}'.format(name=name, kwargs=kwargs))
+    logger.info('{name}ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½Â³É¹ï¿½: {kwargs}}'.format(name=name, kwargs=kwargs))
 ValueError: Single '}' encountered in format string
 2018-06-01 10:25:51,797 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/edit_config/ HTTP/1.1" 500 17640
 2018-06-01 10:26:08,472 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_config/ HTTP/1.1" 200 19
@@ -3735,10 +3735,10 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in log_out
-    logger.info('{username}ÍË³ö'.format(username=request.session['now_account']))
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 78, in log_out
+    logger.info('{username}ï¿½Ë³ï¿½'.format(username=request.session['now_account']))
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
     return self._session[key]
 KeyError: 'now_account'
@@ -3751,11 +3751,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 27, in <module>
-    from MultipleInterfaceManager.common.verify_authorization import required
-ModuleNotFoundError: No module named 'MultipleInterfaceManager.common'
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 27, in <module>
+    from OrderSystemManagement.common.verify_authorization import required
+ModuleNotFoundError: No module named 'OrderSystemManagement.common'
 2018-07-02 23:25:36,097 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/index/ HTTP/1.1" 500 95857
 2018-07-02 23:25:36,200 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
 2018-07-02 23:25:36,207 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
@@ -3767,11 +3767,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 27, in <module>
-    from MultipleInterfaceManager.common.verify_authorization import required
-ModuleNotFoundError: No module named 'MultipleInterfaceManager.common'
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 27, in <module>
+    from OrderSystemManagement.common.verify_authorization import required
+ModuleNotFoundError: No module named 'OrderSystemManagement.common'
 2018-07-02 23:25:39,026 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 96422
 2018-07-02 23:26:26,718 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
 Traceback (most recent call last):
@@ -3781,11 +3781,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 27, in <module>
-    from MultipleInterfaceManager.common.verify_authorization import required
-ModuleNotFoundError: No module named 'MultipleInterfaceManager.common'
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 27, in <module>
+    from OrderSystemManagement.common.verify_authorization import required
+ModuleNotFoundError: No module named 'OrderSystemManagement.common'
 2018-07-02 23:26:26,887 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 96457
 2018-07-02 23:27:09,387 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
 Traceback (most recent call last):
@@ -3795,11 +3795,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 27, in <module>
-    from MultipleInterfaceManager.common.verify_authorization import required
-ModuleNotFoundError: No module named 'MultipleInterfaceManager.common'
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 27, in <module>
+    from OrderSystemManagement.common.verify_authorization import required
+ModuleNotFoundError: No module named 'OrderSystemManagement.common'
 2018-07-02 23:27:09,549 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 96457
 2018-07-02 23:27:45,668 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
 Traceback (most recent call last):
@@ -3809,11 +3809,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 27, in <module>
-    from MultipleInterfaceManager.common.verify_authorization import required
-ModuleNotFoundError: No module named 'MultipleInterfaceManager.common'
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 27, in <module>
+    from OrderSystemManagement.common.verify_authorization import required
+ModuleNotFoundError: No module named 'OrderSystemManagement.common'
 2018-07-02 23:27:45,840 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 96457
 2018-07-02 23:29:37,545 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
 Traceback (most recent call last):
@@ -3823,13 +3823,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 27, in <module>
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 27, in <module>
     from common.verify_authorization import required
-  File "E:\MultipleInterfaceManager\common\verify_authorization.py", line 7, in <module>
-    from MultipleInterfaceManager.common.format_render import json_detail_render
-ModuleNotFoundError: No module named 'MultipleInterfaceManager.common'
+  File "E:\OrderSystemManagement\common\verify_authorization.py", line 7, in <module>
+    from OrderSystemManagement.common.format_render import json_detail_render
+ModuleNotFoundError: No module named 'OrderSystemManagement.common'
 2018-07-02 23:29:37,731 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 108097
 2018-07-02 23:30:01,341 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
 Traceback (most recent call last):
@@ -3839,9 +3839,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 56, in <module>
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 56, in <module>
     @required
 TypeError: required() takes 0 positional arguments but 1 was given
 2018-07-02 23:30:01,511 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 96629
@@ -3954,13 +3954,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 87, in register
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 87, in register
     msg = register_info_logic(**user_info)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\common.py", line 491, in register_info_logic
+  File "E:\OrderSystemManagement\HttpApiManager\utils\common.py", line 491, in register_info_logic
     return add_register_data(**kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\operation.py", line 22, in add_register_data
+  File "E:\OrderSystemManagement\HttpApiManager\utils\operation.py", line 22, in add_register_data
     password = prpcrypt.encrypt(kwargs.pop('password'))
 TypeError: encrypt() missing 1 required positional argument: 'text'
 2018-07-03 09:56:04,634 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/register/ HTTP/1.1" 500 18218
@@ -3976,13 +3976,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 87, in register
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 87, in register
     msg = register_info_logic(**user_info)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\common.py", line 491, in register_info_logic
+  File "E:\OrderSystemManagement\HttpApiManager\utils\common.py", line 491, in register_info_logic
     return add_register_data(**kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\operation.py", line 21, in add_register_data
+  File "E:\OrderSystemManagement\HttpApiManager\utils\operation.py", line 21, in add_register_data
     from common.prpcrypt import prpcrypt
 ImportError: cannot import name 'prpcrypt'
 2018-07-03 10:20:01,101 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/register/ HTTP/1.1" 500 18284
@@ -3994,13 +3994,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 87, in register
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 87, in register
     msg = register_info_logic(**user_info)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\common.py", line 491, in register_info_logic
+  File "E:\OrderSystemManagement\HttpApiManager\utils\common.py", line 491, in register_info_logic
     return add_register_data(**kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\operation.py", line 21, in add_register_data
+  File "E:\OrderSystemManagement\HttpApiManager\utils\operation.py", line 21, in add_register_data
     from common.prpcrypt import prpcrypt
 ImportError: cannot import name 'prpcrypt'
 2018-07-03 10:21:12,853 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/register/ HTTP/1.1" 500 18287
@@ -4012,15 +4012,15 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 87, in register
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 87, in register
     msg = register_info_logic(**user_info)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\common.py", line 491, in register_info_logic
+  File "E:\OrderSystemManagement\HttpApiManager\utils\common.py", line 491, in register_info_logic
     return add_register_data(**kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\operation.py", line 22, in add_register_data
+  File "E:\OrderSystemManagement\HttpApiManager\utils\operation.py", line 22, in add_register_data
     password = data_decrypt(kwargs.pop('password'))
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\Cryptodome\Cipher\_mode_ecb.py", line 161, in decrypt
     raise ValueError("Data must be aligned to block boundary in ECB mode")
@@ -4048,9 +4048,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 68, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 68, in login
     print(UserInfo.objects.filter(username__exact=username).values()["password"])
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\db\models\query.py", line 282, in __getitem__
     raise TypeError
@@ -4070,11 +4070,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(UserInfo.objects.filter(username__exact=username).values("password")) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:40:53,230 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81120
@@ -4086,11 +4086,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:41:25,928 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81283
@@ -4102,11 +4102,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:43:47,643 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81311
@@ -4118,9 +4118,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 69, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 69, in login
     print(select_password.get("password"))
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\db\models\query.py", line 394, in get
     clone = self.filter(*args, **kwargs)
@@ -4144,9 +4144,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 68, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 68, in login
     select_password = UserInfo.objects.filter(username__exact=username).get("password")
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\db\models\query.py", line 394, in get
     clone = self.filter(*args, **kwargs)
@@ -4170,9 +4170,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 68, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 68, in login
     select_password = UserInfo.objects.filter(username__exact=username).filter("password")
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\db\models\query.py", line 836, in filter
     return self._filter_or_exclude(False, *args, **kwargs)
@@ -4194,11 +4194,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:46:08,214 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81202
@@ -4210,11 +4210,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 71, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 71, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:47:35,957 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81798
@@ -4226,11 +4226,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 71, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 71, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:49:27,851 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81804
@@ -4242,9 +4242,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 69, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 69, in login
     print(dict(list(select_password)))
 ValueError: dictionary update sequence element #0 has length 7; 2 is required
 2018-07-03 10:50:46,220 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 78302
@@ -4256,9 +4256,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 69, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 69, in login
     print(dict(list(select_password)))
 ValueError: dictionary update sequence element #0 has length 7; 2 is required
 2018-07-03 10:50:52,239 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 78269
@@ -4270,9 +4270,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     print(select_password[1])
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\db\models\query.py", line 289, in __getitem__
     return self._result_cache[k]
@@ -4286,9 +4286,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     print(dict[0].password)
 AttributeError: 'dict' object has no attribute 'password'
 2018-07-03 10:53:27,596 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 78268
@@ -4300,11 +4300,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:53:58,167 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81283
@@ -4316,11 +4316,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:54:23,043 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81286
@@ -4332,11 +4332,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 10:54:57,030 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81311
@@ -4348,11 +4348,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 70, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 70, in login
     if data_decrypt(select_password[0].get("password")) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 10:55:24,142 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81085
@@ -4364,11 +4364,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 71, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 71, in login
     if data_decrypt(select_password[0].get("password")) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 10:56:39,652 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81084
@@ -4380,11 +4380,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 71, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 71, in login
     if data_decrypt(select_password[0].get("password")) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 10:58:00,984 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81042
@@ -4396,11 +4396,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 71, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 71, in login
     if data_decrypt(str(select_password[0].get("password"))) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 10:58:37,365 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81053
@@ -4412,11 +4412,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(cao(select_password[0].get("password"))) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 11:02:19,513 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81053
@@ -4428,11 +4428,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 11:04:03,020 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 80982
@@ -4444,11 +4444,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text.strip())).decode()
 binascii.Error: Odd-length string
 2018-07-03 11:06:55,024 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 80997
@@ -4460,11 +4460,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 75, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex()).decode()
 TypeError: a2b_hex() takes exactly one argument (0 given)
 2018-07-03 11:37:19,579 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81075
@@ -4476,11 +4476,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 75, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex()).decode()
 TypeError: a2b_hex() takes exactly one argument (0 given)
 2018-07-03 11:37:38,232 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
@@ -4492,11 +4492,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 75, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex()).decode()
 TypeError: a2b_hex() takes exactly one argument (0 given)
 2018-07-03 11:38:01,112 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
@@ -4508,11 +4508,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 75, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex()).decode()
 TypeError: a2b_hex() takes exactly one argument (0 given)
 2018-07-03 11:38:10,732 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
@@ -4524,11 +4524,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 75, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex()).decode()
 TypeError: a2b_hex() takes exactly one argument (0 given)
 2018-07-03 11:38:40,662 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81041
@@ -4540,11 +4540,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex()).decode()
 TypeError: a2b_hex() takes exactly one argument (0 given)
 2018-07-03 11:41:18,603 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81073
@@ -4556,11 +4556,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'UserInfo'
 2018-07-03 11:41:53,197 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81187
@@ -4572,11 +4572,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'UserInfo'
 2018-07-03 11:42:13,076 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81153
@@ -4588,9 +4588,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 74, in login
     print(select_password)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 40, in write
     self.__convertor.write(text)
@@ -4618,9 +4618,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 74, in login
     print(select_password)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\colorama\ansitowin32.py", line 40, in write
     self.__convertor.write(text)
@@ -4649,11 +4649,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'UserInfo'
 2018-07-03 11:46:23,667 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81153
@@ -4665,9 +4665,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 74, in login
     print(select_password["password"])
 TypeError: 'UserInfo' object is not subscriptable
 2018-07-03 11:47:07,388 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 77931
@@ -4679,11 +4679,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 TypeError: argument should be bytes, buffer or ASCII string, not 'QuerySet'
 2018-07-03 11:52:10,644 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81335
@@ -4695,11 +4695,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 11:52:51,258 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81046
@@ -4712,9 +4712,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 73, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 73, in login
     select_password = UserInfo.objects.filter(username=username).fi("password")[0].get("password")
 AttributeError: 'QuerySet' object has no attribute 'fi'
 2018-07-03 16:36:13,933 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 78240
@@ -4726,11 +4726,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 41, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 41, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:36:41,576 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81430
@@ -4742,11 +4742,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 42, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 42, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:42:35,231 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81430
@@ -4758,11 +4758,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 42, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 42, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:43:14,373 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81428
@@ -4774,11 +4774,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 43, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:44:10,936 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81369
@@ -4790,11 +4790,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 43, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:45:09,296 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81376
@@ -4806,11 +4806,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 43, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:47:33,880 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 83477
@@ -4822,11 +4822,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 43, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:48:54,058 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81388
@@ -4839,11 +4839,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if data_decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 43, in data_decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 43, in data_decrypt
     plain_text = cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:56:42,131 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
@@ -4854,9 +4854,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 28, in <module>
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 28, in <module>
     from common.prpcrypt import data_encrypt,data_decrypt
 ImportError: cannot import name 'data_encrypt'
 2018-07-03 16:56:42,296 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/login/ HTTP/1.1" 500 96082
@@ -4868,9 +4868,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 10, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 10, in process
     app = __import__("%s.views" % app)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 28, in <module>
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 28, in <module>
     from common.prpcrypt import data_encrypt,data_decrypt
 ImportError: cannot import name 'data_encrypt'
 2018-07-03 16:56:45,997 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/register/ HTTP/1.1" 500 96097
@@ -4886,11 +4886,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if prpcrypt().decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 16:58:32,127 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81989
@@ -4902,11 +4902,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if prpcrypt().decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:02:01,953 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81989
@@ -4918,9 +4918,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if prpcrypt().decrypt(select_password.decode('utf-8').encode('gbk')) == password:
 AttributeError: 'str' object has no attribute 'decode'
 2018-07-03 17:04:08,748 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 78547
@@ -4932,11 +4932,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     if prpcrypt().decrypt(select_password.encode('gbk')) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:04:35,931 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82034
@@ -4948,11 +4948,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     print(prpcrypt().decrypt(select_password) )
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:07:23,782 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82019
@@ -4964,11 +4964,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     print(prpcrypt().decrypt(select_password))
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:08:31,034 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82023
@@ -4980,11 +4980,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     print(prpcrypt().decrypt(select_password))
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:10:41,979 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82059
@@ -4996,11 +4996,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     print(prpcrypt().decrypt(select_password))
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:12:09,053 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82063
@@ -5012,11 +5012,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     print(prpcrypt().decrypt(select_password))
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:12:33,490 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82063
@@ -5028,11 +5028,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 76, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 76, in login
     print(prpcrypt().decrypt(select_password))
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:13:19,762 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82064
@@ -5044,11 +5044,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 78, in login
     if prpcrypt().decrypt(bytes(select_password, encoding = "utf8")) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:18:19,623 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5535
@@ -5060,11 +5060,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if prpcrypt().decrypt(bytes(select_password, encoding = "utf8")) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:23:08,577 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5535
@@ -5076,9 +5076,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 74, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 74, in login
     print(str(select_password,encoding='utf-8'))
 TypeError: decoding str is not supported
 2018-07-03 17:23:11,393 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 78312
@@ -5090,11 +5090,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 75, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 75, in login
     if prpcrypt().decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:25:49,442 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 81885
@@ -5106,11 +5106,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 78, in login
     if prpcrypt().decrypt(select_password) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:26:44,207 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82041
@@ -5122,11 +5122,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if prpcrypt().decrypt(ca) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:28:50,468 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82066
@@ -5138,11 +5138,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 77, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 77, in login
     if prpcrypt().decrypt(ca) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:32:59,153 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82092
@@ -5154,11 +5154,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 78, in login
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 78, in login
     if prpcrypt().decrypt(ca) == password:
-  File "E:\MultipleInterfaceManager\common\prpcrypt.py", line 39, in decrypt
+  File "E:\OrderSystemManagement\common\prpcrypt.py", line 39, in decrypt
     plain_text = self.cryptor.decrypt(a2b_hex(text)).decode()
 binascii.Error: Odd-length string
 2018-07-03 17:33:16,568 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/login/ HTTP/1.1" 500 82055
@@ -5499,11 +5499,11 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 343, in project_list
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 343, in project_list
     ProjectInfo, filter_query, '/api/project_list/', id)
-  File "E:\MultipleInterfaceManager\HttpApiManager\utils\pagination.py", line 108, in get_pager_info
+  File "E:\OrderSystemManagement\HttpApiManager\utils\pagination.py", line 108, in get_pager_info
     logging.info(logger.c)
 AttributeError: 'ProcessAwareLogger' object has no attribute 'c'
 2018-07-07 18:26:41,209 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/project_list/1/ HTTP/1.1" 500 85609
@@ -5534,7 +5534,7 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 12, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 12, in process
     fun = getattr(view, fun)
 AttributeError: module 'HttpApiManager.views' has no attribute 'log'
 2018-07-07 18:37:31,905 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/log/ HTTP/1.1" 500 73493
@@ -5813,9 +5813,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 307, in run_batch_test
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 307, in run_batch_test
     print("Current testcase_dir_path is : {}".format_map(testcase_dir_path))
 ValueError: Format string contains positional fields
 2018-07-08 16:24:25,990 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_batch_test/ HTTP/1.1" 500 18439
@@ -5827,9 +5827,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 307, in run_batch_test
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 307, in run_batch_test
     print("Current testcase_dir_path is : {}".format_map(testcase_dir_path))
 ValueError: Format string contains positional fields
 2018-07-08 16:24:30,722 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_batch_test/ HTTP/1.1" 500 18440
@@ -5947,9 +5947,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:28:54,468 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -5961,9 +5961,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:28:55,305 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -5975,9 +5975,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:28:56,451 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -5989,9 +5989,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:28:57,215 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -6003,9 +6003,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:06,196 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -6017,9 +6017,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:07,022 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18339
@@ -6031,9 +6031,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:11,871 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
@@ -6045,9 +6045,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:13,367 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -6059,9 +6059,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:17,703 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
@@ -6073,9 +6073,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:48,572 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -6087,9 +6087,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:29:49,511 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
@@ -6101,9 +6101,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:30:18,961 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18341
@@ -6115,9 +6115,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:30:19,662 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -6129,9 +6129,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 678, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 678, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-08 17:30:20,699 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 18340
@@ -6166,13 +6166,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:04:35,056 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6184,13 +6184,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\paramiko\client.py", line 338, in connect
     retry_on_signal(lambda: sock.connect(addr))
@@ -6208,13 +6208,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:09:41,096 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86700
@@ -6226,13 +6226,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\paramiko\client.py", line 338, in connect
     retry_on_signal(lambda: sock.connect(addr))
@@ -6254,13 +6254,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:10:31,097 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6272,13 +6272,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:10:31,362 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6290,13 +6290,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:10:31,719 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6308,13 +6308,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 894, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 894, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\paramiko\client.py", line 338, in connect
     retry_on_signal(lambda: sock.connect(addr))
@@ -6332,13 +6332,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:11:35,557 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86927
@@ -6351,13 +6351,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:12:24,762 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6369,13 +6369,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:12:24,964 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6387,13 +6387,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:12:25,495 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6405,13 +6405,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:35,170 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6424,13 +6424,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:36,267 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6442,13 +6442,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:36,527 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6460,13 +6460,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:36,724 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6478,13 +6478,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:36,916 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6496,13 +6496,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:37,076 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6514,13 +6514,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:37,261 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6532,13 +6532,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:37,448 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86666
@@ -6550,13 +6550,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:37,643 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6568,13 +6568,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:14:37,845 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6586,13 +6586,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\paramiko\client.py", line 338, in connect
     retry_on_signal(lambda: sock.connect(addr))
@@ -6610,13 +6610,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:16:20,923 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86699
@@ -6628,13 +6628,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:16:21,188 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6646,13 +6646,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:16:21,380 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86893
@@ -6664,13 +6664,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:16:21,566 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6682,13 +6682,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:16:24,957 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6700,13 +6700,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:17:48,270 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6718,13 +6718,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:17:52,946 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6737,13 +6737,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:18:03,675 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6755,13 +6755,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:18:04,240 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6773,13 +6773,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:18:04,574 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6792,13 +6792,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:18:32,099 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6811,13 +6811,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:18:34,737 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6829,13 +6829,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:19:06,824 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6847,13 +6847,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:19:07,296 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -6866,13 +6866,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:08,201 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86700
@@ -6884,13 +6884,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:08,903 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -6902,13 +6902,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:36,217 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86766
@@ -6921,13 +6921,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:44,874 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86733
@@ -6939,13 +6939,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:45,120 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86861
@@ -6958,13 +6958,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:45,485 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86828
@@ -6976,13 +6976,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:45,818 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86666
@@ -6994,13 +6994,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:20:46,074 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86667
@@ -7012,13 +7012,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:46:16,052 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -7030,13 +7030,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:46:16,840 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -7048,13 +7048,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:46:17,068 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -7066,13 +7066,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 18:46:17,458 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86893
@@ -7084,13 +7084,13 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
     response = view_func(request, *args, **kwargs)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\dwebsocket\decorators.py", line 16, in new_func
     response = func(request, *args, **kwargs)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 895, in echo
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 895, in echo
     client.connect(servers[0], 22, username=servers[1], password=servers[2], timeout=10)
 IndexError: list index out of range
 2018-07-08 21:59:20,017 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/echo/ HTTP/1.1" 500 86894
@@ -7222,9 +7222,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 681, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-09 22:36:41,502 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 20291
@@ -7236,9 +7236,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 681, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-09 22:36:42,836 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 20291
@@ -7250,9 +7250,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 681, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-09 22:36:44,259 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 20291
@@ -7264,9 +7264,9 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
-  File "E:\MultipleInterfaceManager\HttpApiManager\views.py", line 681, in add_task
+  File "E:\OrderSystemManagement\HttpApiManager\views.py", line 681, in add_task
     print("Add Tast is {}".format(**kwargs))
 IndexError: tuple index out of range
 2018-07-09 22:36:45,455 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/add_task/ HTTP/1.1" 500 20291
@@ -7369,7 +7369,7 @@ Traceback (most recent call last):
     response = self.process_exception_by_middleware(e, request)
   File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "E:\MultipleInterfaceManager\MultipleInterfaceManager\activator.py", line 15, in process
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 15, in process
     result = fun(request, index) if index else fun(request)
 TypeError: login() takes 1 positional argument but 2 were given
 2018-07-23 21:06:34,789 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/login/27/ HTTP/1.1" 500 72832
@@ -7416,3 +7416,95 @@ TypeError: login() takes 1 positional argument but 2 were given
 2018-07-23 21:08:46,068 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test/ HTTP/1.1" 200 63
 2018-07-23 21:08:46,105 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test/ HTTP/1.1" 200 63
 2018-07-23 21:08:46,133 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_batch_test/ HTTP/1.1" 200 107353
+2018-07-29 21:26:58,084 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 5542
+2018-07-29 21:26:58,101 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 21336
+2018-07-29 21:26:58,102 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5955
+2018-07-29 21:26:58,103 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 7138
+2018-07-29 21:26:58,103 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6300
+2018-07-29 21:26:58,105 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23936
+2018-07-29 21:26:58,106 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2018-07-29 21:26:59,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2018-07-29 21:26:59,019 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 134726
+2018-07-29 21:27:45,578 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-29 21:27:45,652 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18133
+2018-07-29 21:27:45,690 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2018-07-29 21:27:45,690 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2018-07-29 21:27:45,695 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13595
+2018-07-29 21:27:45,697 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2018-07-29 21:45:43,879 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 17583
+2018-07-29 21:45:44,652 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 21:45:44,657 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 21:46:40,934 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 17854
+2018-07-29 21:46:41,401 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 21:46:41,408 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 21:47:08,610 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 17854
+2018-07-29 21:47:09,037 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 21:47:09,042 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 21:49:41,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 17854
+2018-07-29 21:49:41,890 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 21:49:41,896 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 21:51:21,998 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 17860
+2018-07-29 21:51:22,438 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 21:51:22,444 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 21:51:41,282 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 17860
+2018-07-29 21:51:41,794 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 21:51:41,803 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 21:51:43,120 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17035
+2018-07-29 22:00:07,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17033
+2018-07-29 22:00:07,292 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:00:07,300 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:00:12,718 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17033
+2018-07-29 22:00:12,923 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:00:12,932 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:01:05,577 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17033
+2018-07-29 22:01:05,815 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:01:05,822 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:01:08,894 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/add_style/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Program Files (x86)\Python3.6.4\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\OrderSystemManagement\OrderSystemManagement\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'HttpApiManager.views' has no attribute 'add_style'
+2018-07-29 22:01:09,006 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/add_style/ HTTP/1.1" 500 74347
+2018-07-29 22:02:17,790 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 17033
+2018-07-29 22:04:40,216 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 17586
+2018-07-29 22:04:40,641 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:04:40,649 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:08:51,541 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 21659
+2018-07-29 22:08:51,872 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:08:51,880 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:09:40,987 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 21647
+2018-07-29 22:09:41,253 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:09:41,260 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:10:17,558 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 21647
+2018-07-29 22:10:17,817 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:10:17,824 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:12:35,641 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22825
+2018-07-29 22:12:35,926 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:12:35,932 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:13:44,035 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22942
+2018-07-29 22:13:44,317 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:13:44,324 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:14:05,655 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22826
+2018-07-29 22:14:05,911 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:14:05,919 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:15:22,473 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22793
+2018-07-29 22:15:23,048 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:15:23,055 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:23:14,710 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65309
+2018-07-29 22:23:16,469 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22793
+2018-07-29 22:23:18,101 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22793
+2018-07-29 22:23:52,596 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22793
+2018-07-29 22:38:24,322 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22150
+2018-07-29 22:38:24,673 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:38:24,680 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:40:02,451 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22150
+2018-07-29 22:40:02,734 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-29 22:40:02,741 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-29 22:48:15,090 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65309
+2018-07-29 22:48:17,042 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65309

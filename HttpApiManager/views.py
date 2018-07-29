@@ -139,7 +139,7 @@ def index(request):
         return HttpResponseRedirect("/api/login/")
 
 
-def add_project(request):
+def add_style(request):
     """
     新增项目
     :param request:
@@ -159,7 +159,7 @@ def add_project(request):
             manage_info = {
                 'account': account
             }
-            return render_to_response('add_project.html', manage_info)
+            return render_to_response('add_style.html', manage_info)
     else:
         return HttpResponseRedirect("/api/login/")
 

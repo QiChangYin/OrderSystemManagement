@@ -11,7 +11,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
 
     {% load staticfiles %}
-    <meta name="apple-mobile-web-app-title" content="MultipleInterfaceManager"/>
+    <meta name="apple-mobile-web-app-title" content="OrderSystemManagement"/>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap-fileinput/4.4.8/css/fileinput.css"/>
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
@@ -45,7 +45,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">MultipleInterfaceManager</h4>
+                    <h4 class="modal-title" id="myModalLabel">OrderSystemManagement</h4>
                 </div>
                 <div class="modal-body">
                     <input name="upload" id="uploadfile" type="file" class="file" multiple/>
@@ -77,7 +77,7 @@
 
 <div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
     <div class="am-modal-dialog">
-        <div class="am-modal-hd">MultipleInterfaceManager</div>
+        <div class="am-modal-hd">OrderSystemManagement</div>
         <div class="am-modal-bd" id="my-alert_print">
             Sorry，服务器可能开小差啦, 请重试!
         </div>
@@ -94,36 +94,32 @@
         <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎您：{{ account }} &nbsp;&nbsp;<a
                 href='/api/log_out/'>注 销</a></div>
         <div class="sideMenu">
-            <h3 class="am-icon-flag"><em></em> <a href="#">项目管理</a></h3>
+            <h3 class="am-icon-flag"><em></em> <a href="#">首页模块</a></h3>
+            <h3 class="am-icon-flag"><em></em> <a href="#">款式管理</a></h3>
             <ul>
-                <li><a href="/api/project_list/1/">项 目 列 表</a></li>
-                <li><a href="/api/add_project/">新 增 项 目</a></li>
-                <li><a href="/api/debugtalk_list/1/">debugtalk.py</a></li>
+                <li><a href="/api/project_list/1/">款 式 列 表</a></li>
+                <li><a href="/api/add_style/">新 增 款 式</a></li>
             </ul>
-            <h3 class="am-icon-cart-plus"><em></em> <a href="#"> 模块管理</a></h3>
+            <h3 class="am-icon-cart-plus"><em></em> <a href="#"> 材料管理</a></h3>
             <ul>
-                <li><a href="/api/module_list/1/">模 块 列 表</a></li>
-                <li><a href="/api/add_module/">新 增 模 块</a></li>
-                <li><a href="/api/suite_list/1/">Test Suite</a></li>
+                <li><a href="/api/module_list/1/">材 料 列 表</a></li>
+                <li><a href="/api/add_module/">新 增 材料</a></li>
             </ul>
-            <h3 class="am-icon-bug"><em></em> <a href="#">用例管理</a></h3>
+
+            <h3 class="am-icon-bug"><em></em> <a href="#">供应商管理</a></h3>
             <ul>
-                <li><a href="/api/test_list/1/">用 例 列 表</a></li>
-                <li><a href="/api/config_list/1/">配 置 列 表</a></li>
-                <li><a href="/api/add_config/">新 增 配 置</a></li>
-                <li><a href="/api/add_case/">新 增 用 例</a></li>
+                <li><a href="/api/test_list/1/">供 应 商 列 表</a></li>
+                <li><a href="/api/add_config/">新 增 供 应 商</a></li>
             </ul>
-            <h3 class="am-icon-reorder"><em></em> <a href="#">报告管理</a></h3>
+            <h3 class="am-icon-bug"><em></em> <a href="#">加工厂管理</a></h3>
             <ul>
-                <li><a href="/api/report_list/1/">查看报告</a></li>
+                <li><a href="/api/test_list/1/">加 工 厂 列 表</a></li>
+                <li><a href="/api/add_config/">新 增 加 工 厂</a></li>
             </ul>
-            <h3 class="am-icon-gears"><em></em> <a href="#">系统设置</a></h3>
+            <h3 class="am-icon-bug"><em></em> <a href="#">用户管理</a></h3>
             <ul>
-                <li><a href="/api/env_list/1/">运 行 环 境</a></li>
-                <li><a href="/api/periodictask/1/">定 时 任 务</a></li>
-{#                <li><a href="http://192.168.91.45:5555/dashboard">任 务 监 控</a></li>#}
-                <li><a href="http://localhost:5555/dashboard">任 务 监 控</a></li>
-                <li><a href="/api/echo/">实验室</a></li>
+                <li><a href="/api/test_list/1/">用 户 列 表</a></li>
+                <li><a href="/api/add_config/">新 增 用 户</a></li>
             </ul>
         </div>
         <!-- sideMenu End -->
@@ -138,26 +134,26 @@
             </li>
             <li>
                 <button type="button" class="am-btn am-btn-default am-radius am-btn-xs"
-                        onclick="location='/api/project_list/1/'">项目列表<a
+                        onclick="location='/api/project_list/1/'">款式列表<a
                         href="/api/project_list/1/" class="am-close am-close-spin">~</a>
                 </button>
             </li>
             <li>
                 <button type="button" class="am-btn am-btn-default am-radius am-btn-xs"
-                        onclick="location='/api/module_list/1/'">模块列表<a
+                        onclick="location='/api/module_list/1/'">材料列表<a
                         href="/api/module_list/1/" class="am-close am-close-spin">~</a>
                 </button>
             </li>
             <li>
                 <button type="button" class="am-btn am-btn-default am-radius am-btn-xs"
-                        onclick="location='/api/test_list/1/'">用例列表<a
+                        onclick="location='/api/test_list/1/'">供应商列表<a
                         href="/api/test_list/1/" class="am-close am-close-spin">~</a>
                 </button>
             </li>
 
             <li>
                 <button type="button" class="am-btn am-btn-default am-radius am-btn-xs"
-                        onclick="location='/api/add_config/'">新增配置<a
+                        onclick="location='/api/add_config/'">加工厂列表<a
                         href="/api/add_config/" class="am-close am-close-spin">~</a>
                 </button>
             </li>
@@ -175,7 +171,7 @@
             </li>
             <li>
                 <button type="button" class="am-btn am-btn-default am-radius am-btn-xs"
-                        onclick="location='/api/add_task/'">新增任务<a
+                        onclick="location='/api/add_task/'">用户管理<a
                         href="/api/add_task/" class="am-close am-close-spin">~</a>
                 </button>
             </li>
