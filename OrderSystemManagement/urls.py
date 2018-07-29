@@ -1,4 +1,4 @@
-"""MultipleInterfaceManager URL Configuration
+"""OrderSystemManagement URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.11/topics/http/urls/
@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.views.generic import RedirectView
 
-from MultipleInterfaceManager.activator import process
+from OrderSystemManagement.activator import process
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),

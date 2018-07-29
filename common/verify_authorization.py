@@ -6,7 +6,7 @@ from functools import wraps
 import logging
 from common.format_render import json_detail_render
 from HttpApiManager.models import UserInfo
-logger = logging.getLogger('MultipleInterfaceManager')
+logger = logging.getLogger('OrderSystemManagement')
 from common.prpcrypt import prpcrypt
 
 

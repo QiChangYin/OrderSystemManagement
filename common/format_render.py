@@ -5,7 +5,7 @@ import json
 
 from flask import jsonify
 from flask import make_response
-from MultipleInterfaceManager.settings import STATUS_CODE
+from OrderSystemManagement.settings import STATUS_CODE
 
 
 def _render(resp):

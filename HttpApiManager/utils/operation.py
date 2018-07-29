@@ -7,7 +7,7 @@ from common.prpcrypt import prpcrypt
 from HttpApiManager.models import ProjectInfo, ModuleInfo, TestCaseInfo, UserInfo, EnvInfo, TestReports, DebugTalk, \
     TestSuite
 
-logger = logging.getLogger('MultipleInterfaceManager')
+logger = logging.getLogger('OrderSystemManagement')
 
 
 def add_register_data(**kwargs):

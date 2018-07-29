@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 
 import os
 
-from MultipleInterfaceManager.settings import EMAIL_SEND_USERNAME, EMAIL_SEND_PASSWORD
+from OrderSystemManagement.settings import EMAIL_SEND_USERNAME, EMAIL_SEND_PASSWORD
 
 
 def send_email_reports(receiver, html_report_path):
@@ -43,4 +43,4 @@ def send_email_reports(receiver, html_report_path):
 
 
 if __name__ == '__main__':
-    send_email_reports('##@qq.com, example@163.com', 'D:\\MultipleInterfaceManager\\reports\\2018-06-05 15-58-00.html')
+    send_email_reports('##@qq.com, example@163.com', 'D:\\OrderSystemManagement\\reports\\2018-06-05 15-58-00.html')

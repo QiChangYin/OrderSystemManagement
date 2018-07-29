@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="616c1ce0-8078-48ab-8ff3-ef1e18d7dd94" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/HttpApiManager/utils/spare/websocket" beforeDir="false" afterPath="$PROJECT_DIR$/HttpApiManager/utils/spare/websocket" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleInterfaceManager/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultipleInterfaceManager/celery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleInterfaceManager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultipleInterfaceManager/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleInterfaceManager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultipleInterfaceManager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultipleInterfaceManager/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultipleInterfaceManager/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +57,20 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HttpApiManager/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
+            <state relative-caret-position="19">
               <caret line="317" column="28" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_celery.bat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start_celery.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -106,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>select_env</find>
       <find>查看报告</find>
       <find>TestReports</find>
       <find>run_ba</find>
@@ -136,6 +148,7 @@
       <find>parameters</find>
       <find>verbose_name</find>
       <find>guni</find>
+      <find>MultipleInterfaceManager</find>
     </findStrings>
     <replaceStrings>
       <replace>_AES</replace>
@@ -146,11 +159,13 @@
       <replace>Mu</replace>
       <replace>MultipleInterfaceManager</replace>
       <replace>col-md-2</replace>
+      <replace>OrderSystemManagement</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\HttpRunnerManager\ApiManager</dir>
       <dir>E:\HttpRunnerManager\HttpRunnerManager</dir>
       <dir>E:\MultipleInterfaceManager\suite</dir>
+      <dir>E:\OrderSystemManagement\MultipleInterfaceManager</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -222,7 +237,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="63" />
     <option name="y" value="24" />
     <option name="width" value="1299" />
@@ -239,82 +254,12 @@
           <expand>
             <path>
               <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderSystemManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderSystemManagement" type="462c0819:PsiDirectoryNode" />
               <item name="HttpApiManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpApiManager" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpApiManager" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="spare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="httprunner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="suite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MultipleInterfaceManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MultipleInterfaceManager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,6 +272,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -534,21 +480,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3294702" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.24851064" side_tool="true" weight="0.31622517" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.75148934" weight="0.33774835" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3294702" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.3294702" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.8731915" visible="true" weight="0.4205298" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26723406" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.75148934" weight="0.33774835" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.8731915" visible="true" weight="0.55041325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34042552" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3293617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.5397351" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.5397351" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -659,6 +606,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MultipleInterfaceManager/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpApiManager/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5472">
+          <caret line="317" column="28" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HttpApiManager/utils/yibu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -832,13 +806,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suite/2018-07-09 22-09-31-212/HWS/外卖/wqweqweq.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/suite/2018-07-09 22-09-31-212/HWS/外卖/wqweqweq.yml" />
     <entry file="file://$PROJECT_DIR$/HttpApiManager/utils/spare/singleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -853,13 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suite/2018-07-09 22-09-31-212/HWS/debugtalk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/suite/2018-07-09 22-09-31-212/HWS/debugtalk.py" />
     <entry file="file://$PROJECT_DIR$/HttpApiManager/managers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -921,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start_celery.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/httprunner/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -939,9 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6536">
           <caret line="351" column="28" selection-start-line="351" selection-start-column="28" selection-end-line="351" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,9 +931,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/start_celery.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HttpApiManager/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
+        <state relative-caret-position="19">
           <caret line="317" column="28" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />

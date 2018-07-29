@@ -14,7 +14,7 @@ from HttpApiManager.utils.operation import add_project_data, add_module_data, ad
     add_register_data
 from HttpApiManager.utils.task_opt import create_task
 
-logger = logging.getLogger('MultipleInterfaceManager')
+logger = logging.getLogger('OrderSystemManagement')
 
 
 def type_change(type, value):

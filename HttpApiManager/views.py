@@ -28,7 +28,7 @@ from common.verify_authorization import password_validation
 from common.verify_authorization import required
 import  re
 import binascii
-logger = logging.getLogger('MultipleInterfaceManager')
+logger = logging.getLogger('OrderSystemManagement')
 
 # Create your views here.
 separator = '\\' if platform.system() == 'Windows' else '/'

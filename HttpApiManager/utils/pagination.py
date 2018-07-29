@@ -1,7 +1,7 @@
 from django.utils.safestring import mark_safe
 import logging
 from HttpApiManager.models import ModuleInfo, TestCaseInfo, TestSuite
-logger = logging.getLogger('MultipleInterfaceManager')
+logger = logging.getLogger('OrderSystemManagement')
 
 class PageInfo(object):
     """
