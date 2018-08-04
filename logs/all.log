@@ -7508,3 +7508,5 @@ AttributeError: module 'HttpApiManager.views' has no attribute 'add_style'
 2018-07-29 22:40:02,741 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
 2018-07-29 22:48:15,090 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65309
 2018-07-29 22:48:17,042 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 65309
+2018-07-29 22:51:46,479 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 17200
+2018-07-29 22:51:51,237 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_style/ HTTP/1.1" 200 22150
