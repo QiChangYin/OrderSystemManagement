@@ -5408,3 +5408,7 @@ AttributeError: module 'HttpApiManager.views' has no attribute 'add_style'
 2018-07-29 22:48:14,954 [OrderSystemManagement:158] [pagination:get_pager_info] [INFO]- 15
 2018-07-29 22:48:16,951 [OrderSystemManagement:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
 2018-07-29 22:48:16,962 [OrderSystemManagement:158] [pagination:get_pager_info] [INFO]- 15
+2018-08-05 08:35:55,458 [OrderSystemManagement:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-08-05 08:35:55,463 [OrderSystemManagement:158] [pagination:get_pager_info] [INFO]- 15
+2018-08-05 08:37:46,470 [OrderSystemManagement:346] [views:project_list] [INFO]- {'user': '', 'name': '', 'belong_project': '', 'belong_module': '', 'report_name': ''}
+2018-08-05 08:37:46,475 [OrderSystemManagement:158] [pagination:get_pager_info] [INFO]- 15
